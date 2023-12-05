@@ -56,9 +56,10 @@ public class StringmanipulationApplication {
 				resposta006.resposta(string006f1,string006f2);
 				break;
 			case 7:
-//				String string007 = "";
-//				Resolution007 resposta007 = new Resolution007();
-//				resposta007.resposta(string007);
+				String string007f1 = "PHP Exercises and ";
+				String string007f2 = "Python Exercises";
+				Resolution007 resposta007 = new Resolution007();
+				resposta007.resposta(string007f1,string007f2);
 				break;
 			case 8:
 //				String string008 = "";
