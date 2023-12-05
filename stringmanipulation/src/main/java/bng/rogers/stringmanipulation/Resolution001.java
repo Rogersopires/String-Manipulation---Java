@@ -14,8 +14,7 @@ public class Resolution001 {
     // Gerando a Resposta do problema
     public static void resposta(String argumento)
     {
-        String linhaInicial = "Original string = "+ argumento;
-        System.out.println(linhaInicial);
+        inicialState(argumento);
         System.out.println(makeSentenceWithString(argumento,0));
         System.out.println(makeSentenceWithString(argumento,10));
     }
@@ -30,4 +29,10 @@ public class Resolution001 {
         Character letra = getCharFromString(argumento,numero);
         return "The character at position " + numero + " is " + letra;
     }
+
+    public static void inicialState(String argumento)
+    {
+        System.out.println("Original string : "+ argumento);
+    }
+
 }
