@@ -25,14 +25,18 @@ public class StringmanipulationApplication {
 		{
 			case 1:
 				String string001 = "Java Exercises!";
-				Resolution001.resposta(string001);
+				Resolution001 resposta001 = new Resolution001();
+				resposta001.resposta(string001);
 				break;
 			case 2:
 				String string002 = "w3resource.com";
-				Resolution002.resposta(string002);
+				Resolution002 resposta002 = new Resolution002();
+				resposta002.resposta(string002);
 				break;
 			case 3:
-				System.out.println("Resposta 3");
+				String string003 = "w3resource.com";
+				Resolution003 resposta003 = new Resolution003();
+				resposta003.resposta(string003);
 				break;
 		}
 	}

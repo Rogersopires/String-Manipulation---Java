@@ -12,19 +12,19 @@ public class Resolution001 {
     */
 
     // Gerando a Resposta do problema
-    public static void resposta(String argumento)
+    public void resposta(String argumento)
     {
         inicialState(argumento);
         System.out.println(makeSentenceWithString(argumento,0));
         System.out.println(makeSentenceWithString(argumento,10));
     }
     // Retirando a Letra do numero fornecido
-    public static Character getCharFromString(String argumento, int numero)
+    public Character getCharFromString(String argumento, int numero)
     {
         return argumento.charAt(numero);
     }
     // Fazendo a frase de resposta
-    public static String makeSentenceWithString(String argumento, int numero)
+    public String makeSentenceWithString(String argumento, int numero)
     {
         Character letra = getCharFromString(argumento,numero);
         return "The character at position " + numero + " is " + letra;
