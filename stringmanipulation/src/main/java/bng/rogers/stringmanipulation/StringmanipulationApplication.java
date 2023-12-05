@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class StringmanipulationApplication {
 	public static void main(String[] args) {
 		//SpringApplication.run(StringmanipulationApplication.class, args);
-		Resolution001 resposta001 = new Resolution001();
-		resposta001.main();
+		String string001 = "Java Exercises!";
+		Resolution001.resposta(string001);
 		}
 
 }
