@@ -30,7 +30,7 @@ public class Resolution001 {
         return "The character at position " + numero + " is " + letra;
     }
 
-    public static void inicialState(String argumento)
+    public void inicialState(String argumento)
     {
         System.out.println("Original string : "+ argumento);
     }

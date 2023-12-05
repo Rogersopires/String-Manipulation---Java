@@ -39,9 +39,31 @@ public class StringmanipulationApplication {
 				resposta003.resposta(string003);
 				break;
 			case 4:
-				String string004 = "w3resource.com";
+				String string004 = "teste de como isso pode funcionar";
 				Resolution004 resposta004 = new Resolution004();
 				resposta004.resposta(string004);
+				break;
+			case 5:
+				String string005f1 = "This is Exercise 1";
+				String string005f2 = "This is Exercise 2";
+				Resolution005 resposta005 = new Resolution005();
+				resposta005.resposta(string005f1,string005f2);
+				break;
+			case 6:
+				String string006f1 = "This is Exercise 1";
+				String string006f2 = "This is Exercise 1";
+				Resolution005 resposta006 = new Resolution006();
+				resposta006.resposta(string006f1,string006f2);
+				break;
+			case 7:
+//				String string007 = "";
+//				Resolution007 resposta007 = new Resolution007();
+//				resposta007.resposta(string007);
+				break;
+			case 8:
+//				String string008 = "";
+//				Resolution008 resposta008= new Resolution008();
+//				resposta008.resposta(string008);
 				break;
 		}
 	}
