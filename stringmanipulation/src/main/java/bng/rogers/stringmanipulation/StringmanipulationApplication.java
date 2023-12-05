@@ -38,6 +38,11 @@ public class StringmanipulationApplication {
 				Resolution003 resposta003 = new Resolution003();
 				resposta003.resposta(string003);
 				break;
+			case 4:
+				String string004 = "w3resource.com";
+				Resolution004 resposta004 = new Resolution004();
+				resposta004.resposta(string004);
+				break;
 		}
 	}
 }

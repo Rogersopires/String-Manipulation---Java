@@ -15,6 +15,7 @@ public class Resolution002 extends Resolution001{
     */
 
     // Gerando a Resposta do problema
+    @Override
     public void resposta(String argumento)
     {
         inicialState(argumento);
