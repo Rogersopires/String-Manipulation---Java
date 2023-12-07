@@ -69,6 +69,12 @@ public class StringmanipulationApplication {
 				Resolution008 resposta008= new Resolution008();
 				resposta008.resposta(string008,rp008);
 				break;
+			case 201:
+				BufferedReader andreBuff = new BufferedReader(new InputStreamReader(System.in));
+				System.out.print("Qual o nome do arquivo a ser contado?");
+				String textLer = andreBuff.readLine();
+				Andre001.main(textLer);
+				break;
 		}
 	}
 }

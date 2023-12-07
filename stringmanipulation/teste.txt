@@ -1,0 +1,1 @@
+Faça um programa que Leia um arquivo e conte as palavras deste arquivo e retorne o número de palavras encontradas no arquivo.
