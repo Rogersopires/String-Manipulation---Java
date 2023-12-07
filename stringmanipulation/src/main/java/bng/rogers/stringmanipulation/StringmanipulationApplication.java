@@ -73,7 +73,8 @@ public class StringmanipulationApplication {
 				BufferedReader andreBuff = new BufferedReader(new InputStreamReader(System.in));
 				System.out.print("Qual o nome do arquivo a ser contado?");
 				String textLer = andreBuff.readLine();
-				Andre001.main(textLer);
+				Andre001 respostaAndre001 = new Andre001();
+				respostaAndre001.contadorDePalavras(textLer);
 				break;
 		}
 	}
