@@ -2,7 +2,7 @@ package bng.rogers.stringmanipulation;
 
 public class Resolution007 extends Resolution005{
 
-    // Resolução do Primeiro problema:
+    // Resolução do problema:
     /*
     7. Write a Java program to concatenate a given string to the end of another string.
 

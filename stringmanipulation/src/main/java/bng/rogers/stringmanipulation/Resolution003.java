@@ -1,7 +1,7 @@
 package bng.rogers.stringmanipulation;
 
 public class Resolution003 extends Resolution002 {
-    // Resolução do Primeiro problema:
+    // Resolução do problema:
     /*
     3. Write a Java program to get the character (Unicode code point) before the specified index within the string.
 

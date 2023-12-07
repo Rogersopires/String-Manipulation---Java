@@ -2,7 +2,7 @@ package bng.rogers.stringmanipulation;
 
 public class Resolution006 extends Resolution005{
 
-    // Resolução do Primeiro problema:
+    // Resolução do problema:
     /*
     6. Write a Java program to compare two strings lexicographically, ignoring case differences.
 

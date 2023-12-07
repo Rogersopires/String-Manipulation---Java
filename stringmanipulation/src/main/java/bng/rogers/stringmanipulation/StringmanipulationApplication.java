@@ -19,7 +19,7 @@ public class StringmanipulationApplication {
 				System.err.println("Invalid Format!");
 			}
 		}
-	public static void resolutions(int num)
+	public static void resolutions (int num)  throws IOException
 	{
 		switch (num)
 		{
@@ -62,9 +62,12 @@ public class StringmanipulationApplication {
 				resposta007.resposta(string007f1,string007f2);
 				break;
 			case 8:
-//				String string008 = "";
-//				Resolution008 resposta008= new Resolution008();
-//				resposta008.resposta(string008);
+				BufferedReader newBuffer = new BufferedReader(new InputStreamReader(System.in));
+				System.out.print("Qual palavra quer comparar?");
+                String rp008 = newBuffer.readLine();
+                String string008 = "PHP Exercises and Python Exercises";
+				Resolution008 resposta008= new Resolution008();
+				resposta008.resposta(string008,rp008);
 				break;
 		}
 	}

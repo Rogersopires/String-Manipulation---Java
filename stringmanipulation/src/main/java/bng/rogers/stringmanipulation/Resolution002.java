@@ -1,7 +1,7 @@
 package bng.rogers.stringmanipulation;
 
 public class Resolution002 extends Resolution001{
-    // Resolução do Primeiro problema:
+    // Resolução do problema:
     /*
     2. Write a Java program to get the character (Unicode code point) at the given index within the string.
 
