@@ -7,9 +7,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Andre002 {
-    public static void main(String[] args) {
-        String caminhoArquivo = "teste2.txt"; // Substitua pelo caminho real do seu arquivo
-        String chaveRequisitada = "chave2"; // Substitua pela chave que você quer buscar
+    // Resolução do problema:
+    /*
+    Faça um programa que Leia um arquivo com estrutura chave valor e Storni o valor da chave requisitado.
+    */
+    // Resolução do problema 001 do andre
+
+    public static void estornarValor(String arquivo, String chave) {
+        String caminhoArquivo = arquivo;
+        String chaveRequisitada = chave;
 
         try {
             Map<String, String> mapaChaveValor = lerArquivoChaveValor(caminhoArquivo);
@@ -32,7 +38,6 @@ public class Andre002 {
         try (BufferedReader br = new BufferedReader(new FileReader(caminhoArquivo))) {
             String linha;
             while ((linha = br.readLine()) != null) {
-                // Divide a linha em chave e valor usando "=" como delimitador
                 String[] partes = linha.split("=");
                 if (partes.length == 2) {
                     String chave = partes[0].trim();
@@ -46,7 +51,3 @@ public class Andre002 {
     }
 }
 
-
-
-
-}

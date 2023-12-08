@@ -75,6 +75,14 @@ public class StringmanipulationApplication {
 				String textLer = andreBuff.readLine();
 				Andre001.contadorDePalavras(textLer);
 				break;
+			case 202:
+				BufferedReader andreBuff2 = new BufferedReader(new InputStreamReader(System.in));
+				System.out.print("Qual o nome do arquivo a ser contado?");
+				String textLer2 = andreBuff2.readLine();
+				System.out.print("Qual a palavra chave?");
+				String palavrachave = andreBuff2.readLine();
+				Andre002.estornarValor(textLer2,palavrachave);
+				break;
 		}
 	}
 }

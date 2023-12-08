@@ -1,0 +1,5 @@
+Faça um programa que Leia um arquivo e conte as palavras deste arquivo e retorne o número de palavras encontradas no arquivo.
+
+chave1=produto
+chave2=batata
+chave3=tempestade
