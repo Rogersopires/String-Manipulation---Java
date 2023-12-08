@@ -83,6 +83,12 @@ public class StringmanipulationApplication {
 				String palavrachave = andreBuff2.readLine();
 				Andre002.estornarValor(textLer2,palavrachave);
 				break;
+			case 203:
+				BufferedReader andreBuff3 = new BufferedReader(new InputStreamReader(System.in));
+				System.out.print("Qual o nome do arquivo a ser contado?");
+				String textLer3 = andreBuff3.readLine();
+				Andre003.main(textLer3);
+				break;
 		}
 	}
 }

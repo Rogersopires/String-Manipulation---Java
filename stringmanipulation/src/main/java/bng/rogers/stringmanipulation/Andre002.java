@@ -14,7 +14,7 @@ public class Andre002 {
     // Resolução do problema 001 do andre
 
     public static void estornarValor(String arquivo, String chave) {
-        String caminhoArquivo = arquivo;
+        String caminhoArquivo = arquivo + ".txt";
         String chaveRequisitada = chave;
 
         try {
