@@ -13,8 +13,6 @@ public class Andre003 {
     Faça um programa que Leia um arquivo Encontre todas as datas no texto desse arquivo e retorne uma lista dessas datas no formato dd/MM/aa.
     */
     // Resolução do problema 001 do andre
-
-
     public static void main(String arquivo) {
         String caminhoDoArquivo = arquivo + ".txt";
 
